@@ -40,3 +40,6 @@ class LaptopModelForm(forms.ModelForm):
         else:
             return weight
 
+
+
+

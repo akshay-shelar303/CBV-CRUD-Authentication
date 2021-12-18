@@ -10,3 +10,5 @@ class Laptop(models.Model):
     weight = models.FloatField()
 
 
+    def __str__(self):
+        return f"{self.company},{self.model_name},{self.ram},{self.rom},{self.processor},{self.price},{self.weight}"
